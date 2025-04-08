@@ -44,7 +44,7 @@ aval = ["Autoavaliação","Gestor","Pares","Liderados"]
 Avaliado = str(Nome)
 st.write("""
 ## Competências
-""" ), Avaliado
+""" ), Nome
 
 fig_comp = px.bar(df_Média, y=aval, x="Compet", barmode='group', color_discrete_map = {"Autoavaliação":"Red", "Gestor":"Blue","Pares":"Yellow", "Liderados":"MediumPurple"})
 fig_comp.update_layout(xaxis_title="Competências", yaxis_title="Médias")
