@@ -41,7 +41,6 @@ df_Média = df_filtered.groupby("Compet")[["Autoavaliação","Gestor","Pares","L
 aval = ["Autoavaliação","Gestor","Pares","Liderados"]
 #----------------------------------------------------------------------
 
-Avaliado = str(Nome)
 st.write("""
 ## Competências
 """ ), Nome
