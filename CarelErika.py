@@ -61,7 +61,7 @@ st.write("""
 
 #df["CompetUniqx"] = df_filtered["Competencia"]
 #df["CompetUniqx"]
-df_CompetUniq = df_filtered["Competência"].dropna().reset_index(drop = True)
+df_CompetUniq = df_filtered["Competencia"].dropna().reset_index(drop = True)
 
 unica_Competencia = st.selectbox("Escolha a Competência",df_CompetUniq.unique(),index=1)
 
